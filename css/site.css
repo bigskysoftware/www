@@ -1,2 +1,36 @@
-body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}
-h1,h2,h3{line-height:1.2}
+body{
+	margin:40px auto;
+	max-width:650px;
+	line-height:1.6;
+	font-size:18px;
+	font-family: Ariel, sans-serif;
+	color:#444;
+	padding:0 10px;
+}
+.title{
+	color:#283038;
+	font-family:monospace; 
+	letter-spacing:-2px; 
+	word-spacing:-8px;
+}
+.c1{
+	color:#f6e493;
+	letter-spacing:-10px
+}
+.c2{	
+	color:#f2af3e;
+	letter-spacing:-10px
+}
+.c3{
+	color:#ee9042
+}
+.centered {
+	text-align:center;
+}
+h1,h2,h3{
+	color:#444;
+	line-height:1.2; 
+}
+a {
+	color:#283038;
+}
