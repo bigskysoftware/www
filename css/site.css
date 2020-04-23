@@ -1,15 +1,17 @@
 body{
-	margin:40px auto;
-	max-width:650px;
 	line-height:1.6;
 	font-family: Ariel, sans-serif;
 	background-color: #00003A;
 	color:whitesmoke;
 	padding:0 10px;
+	margin: auto;
+	max-width:850px;
+	margin-top: 22px;
 }
 .logo{
 	font-family:monospace;
-	font-size:88px;
+	font-size:60px;
+	letter-spacing: -.2rem;
 }
 .title{
 	font-family:monospace;
@@ -36,4 +38,7 @@ h1,h2,h3{
 }
 a {
 	color:whitesmoke;
+}
+.main {
+	padding:48px;
 }
