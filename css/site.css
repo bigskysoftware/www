@@ -2,16 +2,18 @@ body{
 	margin:40px auto;
 	max-width:650px;
 	line-height:1.6;
-	font-size:18px;
 	font-family: Ariel, sans-serif;
-	color:#444;
+	background-color: #00003A;
+	color:whitesmoke;
 	padding:0 10px;
 }
+.logo{
+	font-family:monospace;
+	font-size:88px;
+}
 .title{
-	color:#283038;
-	font-family:monospace; 
-	letter-spacing:-2px; 
-	word-spacing:-8px;
+	font-family:monospace;
+	font-size:88px;
 }
 .c1{
 	color:#f6e493;
@@ -19,7 +21,8 @@ body{
 }
 .c2{	
 	color:#f2af3e;
-	letter-spacing:-10px
+	letter-spacing:-10px;
+	font-weight: bolder;
 }
 .c3{
 	color:#ee9042
@@ -28,9 +31,9 @@ body{
 	text-align:center;
 }
 h1,h2,h3{
-	color:#444;
+	color:whitesmoke;
 	line-height:1.2; 
 }
 a {
-	color:#283038;
+	color:whitesmoke;
 }
