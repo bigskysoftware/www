@@ -1,0 +1,24 @@
+{
+  "name": "bigsky.software",
+  "description": "the website for big sky software",
+  "keywords": [
+    "htmx",
+    "jschema",
+    "hyperscript"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://bigsky.software/",
+  "bugs": {
+    "url": "https://github.com/bigskysoftware/www/issues"
+  },
+  "license": "BSD 2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigskysoftware/www.git"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "eleventy-plugin-sass": "^1.0.0",
+    "fs-extra": "^9.0.0"
+  }
+}

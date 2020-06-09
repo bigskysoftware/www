@@ -3,12 +3,12 @@ body{
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
 	"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	margin: 0;
-	background-color: whitesmoke;
 }
 .hero {
-	height: 200px;
-	line-height: 200px;
-	font-size:60px;
+	max-width: 55em;
+	padding: 1em;
+	margin: 0 auto auto;
+	font-size:3em;
 	font-weight: bold;
 	letter-spacing: -.1rem;
 	background-color: #000833;
@@ -16,10 +16,12 @@ body{
 	background-image: url(/img/topo.svg);
 }
 
-.projects a {
-	display: inline-block;
-	font-size: 20px;
-	margin: 0px 20px;
+.software {
+	text-align: center;
+	vertical-align: middle;
+}
+.software img {
+	width: 320px;
 }
 
 .c1{
