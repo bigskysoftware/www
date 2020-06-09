@@ -5,15 +5,19 @@ body{
 	margin: 0;
 }
 .hero {
-	max-width: 55em;
-	padding: 1em;
-	margin: 0 auto auto;
-	font-size:3em;
+	padding: .5em;
+	margin: 0px auto;
+	font-size:2.3em;
+	text-align: center;
 	font-weight: bold;
 	letter-spacing: -.1rem;
-	background-color: #000833;
+	background-color: #000618;
 	color: whitesmoke;
 	background-image: url(/img/topo.svg);
+}
+
+.hero a {
+  color: whitesmoke;
 }
 
 .software {
@@ -33,14 +37,29 @@ body{
 .c3{
 	color:#ee9042
 }
-.centered {
-	text-align:center;
-}
 
 a {
 	font-weight: bold;
 	text-decoration: none;
 	color:#000833
+}
+
+p {
+	margin: 16px;
+}
+
+pre[class*="language-"] {
+	font-size: 16px;
+	margin-top: 24px !important;
+	margin-bottom: 24px !important;
+	margin-left: 48px !important;
+	margin-right: 48px !important;
+}
+
+blockquote {
+	border-left: 4px solid whitesmoke;
+	margin-left: 32px;
+	margin-right: 32px;
 }
 
 
@@ -91,7 +110,7 @@ hr {
 }
 
 a[href]:hover, .btn:hover {
-	opacity: .6;
+	opacity: .8;
 }
 
 .c {

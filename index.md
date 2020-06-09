@@ -35,6 +35,9 @@ these technologies can help your company deliver web assets more quickly and ine
 </div>
 </div>
 
+## Essays
+
+We also occasionally produce [essays](/essays) on software development.
 
 ## Contact
 
