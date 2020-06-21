@@ -4,7 +4,7 @@ layout: layout.html
 
 Big Sky Software is a small software development shop that creates (mostly) web development tools.
 
-Please [contact us](info@bigsky.software) if you have project consulting needs in these areas, or wish to discuss how 
+Please [contact us](mailto:info@bigsky.software) if you have project consulting needs in these areas, or wish to discuss how 
 these technologies can help your company deliver web assets more quickly and inexpensively.
 
 ## Our Software
