@@ -14,7 +14,7 @@
   "license": "BSD 2-Clause",
   "scripts": {
     "dev": "rm -rf _site && mkdir _site && mkdir _site/css && postcss css/styles.css > _site/css/styles.css && eleventy --serve --quiet",
-    "build": "rm -rf _site && eleventy && NODE_ENV=production postcss css/styles.css > _site/css/styles.css"
+    "build": "rm -rf _site && mkdir _site && mkdir _site/css && eleventy && NODE_ENV=production postcss css/styles.css > _site/css/styles.css"
   },
   "repository": {
     "type": "git",
