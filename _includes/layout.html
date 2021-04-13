@@ -1,18 +1,24 @@
 <html>
 <head>
-    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>/// big sky software</title>
-    <link rel="stylesheet" type="text/css" href="/css/site.css">
-    <link rel="stylesheet" href="/css/prism-htmx.css"/>
-    <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
-    <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
 </head>
 <body>
-<div class="hero">
-<a href="/"><i class="c1">/</i><i class="c2">/</i><i class="c3">/</i> Big Sky Software</a>
-</div>
-<div class="c">
-    {{ content | safe }}
+<div class="space-y-20 sm:space-y-32 md:space-y-40 lg:space-y-44 overflow-hidden">
+    <div class="relative z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
+        <div class="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
+            Big Sky Software
+            <div class="">
+                <small class="text-sm font-medium tracking-normal italic">We find hot, new industry trends and then do the opposite of that...</small>
+            </div>
+        </div>
+        <div class="c">
+            {{ content | safe }}
+        </div>
+
+    </div>
 </div>
 </body>
 </html>

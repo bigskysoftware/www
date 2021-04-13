@@ -12,13 +12,19 @@
     "url": "https://github.com/bigskysoftware/www/issues"
   },
   "license": "BSD 2-Clause",
+  "scripts": {
+    "dev": "rm -rf _site && mkdir _site && mkdir _site/css && postcss css/styles.css > _site/css/styles.css && eleventy --serve --quiet",
+    "build": "rm -rf _site && eleventy && NODE_ENV=production postcss css/styles.css > _site/css/styles.css"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bigskysoftware/www.git"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "eleventy-plugin-sass": "^1.0.0",
-    "fs-extra": "^9.0.0"
+    "autoprefixer": "^10.2.5",
+    "fs-extra": "^9.0.0",
+    "postcss": "^8.2.10",
+    "tailwindcss": "^2.1.1"
   }
 }
