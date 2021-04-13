@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/bigskysoftware/www.git"
   },
-  "dependencies": {
+  "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "autoprefixer": "^10.2.5",
     "fs-extra": "^9.0.0",
