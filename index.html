@@ -1,30 +1,99 @@
----
-layout: layout.html
----
-<div class="c">
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>/// big sky software</title>
+    <link rel="stylesheet" type="text/css" href="css/pico.css">
+    <style>
+        .c1 {
+            color: #f6e493
+        }
 
-    <h2 class="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-violet-600 mb-3">About Us</h2>
-    <p>Big Sky Software is a small software development shop that creates (mostly) web development tools.</p>
-    <p>Please <a href="mailto:info@bigsky.software">contact us</a> if you have project consulting needs in these areas,
-        or wish to discuss how
-        these technologies can help your company deliver web assets more quickly and inexpensively.</p>
+        .c2 {
+            color: #f2af3e
+        }
 
-    <h2 class="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-violet-600 mb-3">Our Software</h2>
-
-    <ul>
-        <ul><a href="https://htmx.org"><img src="/img/htmx_logo.1.png" alt="htmx.org"></a></ul>
-
-        <ul><a href="http://hyperscript.org"><img src="/img/hyperscript.png" alt="hyperscript.org"></a></ul>
-
-        <ul><a href="http://intercoolerjs.org"><img src="/img/intercoolerjs.png" alt="intercoolerjs.org"></a></ul>
-
-        <ul><a href="http://jschema.org"><img src="/img/jschema.png" alt="jschema.org"></a></ul>
-    </ul>
-
-    <h2 class="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-violet-600 mb-3">Contact</h2>
-    <ul>
-        <li><a href="mailto:info@bigsky.software">info@bigsky.software</a></li>
-        <li><a href="https://twitter.com/htmx_org">https://twitter.com/htmx_org</a></li>
-    </ul>
-
+        .c3 {
+            color: #ee9042
+        }
+    </style>
+</head>
+<body style="padding-top: 8px">
+<div style="background-image: url('img/topo.svg'); background-color: rgb(0, 6, 24); padding: 40px; border-top: 2px solid whitesmoke; border-bottom: 2px solid whitesmoke">
+    <header class="container">
+        <hgroup>
+            <h1 style="color: white; font-size: 4em"><span class="c1">/</span><span class="c2">/</span><span class="c3">/</span>Big
+                Sky Software</h1>
+            <h2>We find hot, new industry trends and then do the opposite of that...</h2>
+        </hgroup>
+        <nav>
+            <ul>
+                <li><a style="color: white" href="#about">About</a></li>
+                <li><a style="color: white" href="#projects">Projects</a></li>
+                <li><a style="color: white" href="#essays" data-theme-switcher="light">Essays</a></li>
+                <li><a style="color: white" href="#contact" data-theme-switcher="dark">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 </div>
+<main class="container">
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Big Sky Software creates <a href="#projects">open source tools</a> that make building software easier and
+            more fun.</p>
+
+        <p><a href="mailto:info@bigsky.software">Contact us</a> for consulting engagements or if you want to discuss
+            how these technologies can help your company deliver software more quickly, reliably & inexpensively.</p>
+
+        <p>You can also <a href="https://github.com/sponsors/bigskysoftware?o=esb">support our work</a> via Github
+            Sponsors.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Our Software</h2>
+
+        <div class="grid" style="padding: 40px; padding-top: 0px">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <a href="http://hyperscript.org"><img src="img/hyperscript.png" alt="hyperscript.org"></a>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <a href="https://htmx.org"><img src="img/htmx_logo.1.png" alt="htmx.org"></a>
+            </div>
+        </div>
+        <div class="grid" style="padding: 40px">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <a href="http://intercoolerjs.org"><img src="img/intercoolerjs.png" alt="intercoolerjs.org"></a>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <a href="http://jschema.org"><img src="img/jschema.png" alt="jschema.org"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="essays">
+        <h2>Essays</h2>
+        <p>We occasionally write essays on software development.</p>
+        <p>Here are some of them:</p>
+        <ul>
+            <li><a href="https://htmx.org/essays/locality-of-behaviour">Locality of Behavior (LoB)</a></li>
+            <li><a href="https://htmx.org/essays/complexity-budget">Complexity Budgets</a></li>
+            <li><a href="https://htmx.org/essays/hateoas">HATEOAS</a></li>
+            <li><a href="https://htmx.org/essays/hypermedia-apis-vs-data-apis">Hypermedia APIs vs. Data APIs</a></li>
+            <li><a href="https://htmx.org/essays/splitting-your-apis">Splitting Your Data &amp; Application APIs: Going Further</a></li>
+            <li><a href="https://intercoolerjs.org/2016/02/17/api-churn-vs-security.html">The API Churn/Security Trade-off</a></li>
+            <li><a href="https://intercoolerjs.org/2016/05/08/hatoeas-is-for-humans.html">HATEOAS Is For Humans</a></li>
+            <li><a href="https://intercoolerjs.org/2016/01/18/rescuing-rest.html">Rescuing REST From the API Winter</a></li>
+        </ul>    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li><a href="mailto:info@bigsky.software">info@bigsky.software</a></li>
+            <li><a href="https://twitter.com/htmx_org">https://twitter.com/htmx_org</a></li>
+        </ul>
+    </section>
+</main>
+</body>
+</html>
+
