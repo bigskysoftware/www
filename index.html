@@ -5,33 +5,60 @@
     <title>/// big sky software</title>
     <link rel="stylesheet" type="text/css" href="css/pico.css">
     <style>
-        .c1 {
-            color: #f6e493
+        /* slash colors */
+        .c1 {color: #f6e493}
+        .c2 {color: #f2af3e}
+        .c3 {color: #ee9042}
+
+        .hero {
+            background-image: url('img/topo.svg');
+            background-color: rgb(0, 6, 24);
+            padding: 40px;
+            border-top: 2px solid whitesmoke;
+            border-bottom: 2px solid whitesmoke
         }
 
-        .c2 {
-            color: #f2af3e
+        @media (prefers-color-scheme: dark) {
+            .hero {
+                background-image: url('img/topo-dark.svg');
+                border-top: 2px solid #323131;
+                border-bottom: 2px solid #323131
+            }
         }
 
-        .c3 {
-            color: #ee9042
+        .hero h1 {
+            color: white;
+            font-size: 4em;
+        }
+
+        .hero a {
+            color: white;
+        }
+        .hero a:hover {
+            color: lightgray;
+        }
+        .grid-projects div {
+            padding-bottom: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
 <body style="padding-top: 8px">
-<div style="background-image: url('img/topo.svg'); background-color: rgb(0, 6, 24); padding: 40px; border-top: 2px solid whitesmoke; border-bottom: 2px solid whitesmoke">
+<div class="hero">
     <header class="container">
         <hgroup>
-            <h1 style="color: white; font-size: 4em"><span class="c1">/</span><span class="c2">/</span><span class="c3">/</span>Big
+            <h1><span class="c1">/</span><span class="c2">/</span><span class="c3">/</span>Big
                 Sky Software</h1>
-            <h2>We find hot, new industry trends and then do the opposite of that...</h2>
+            <h2>We find hot, new industry trends and then do the opposite of that</h2>
         </hgroup>
         <nav>
             <ul>
-                <li><a style="color: white" href="#about">About</a></li>
-                <li><a style="color: white" href="#projects">Projects</a></li>
-                <li><a style="color: white" href="#essays" data-theme-switcher="light">Essays</a></li>
-                <li><a style="color: white" href="#contact" data-theme-switcher="dark">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#essays">Essays</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -39,13 +66,13 @@
 <main class="container">
     <section id="about">
         <h2>About Us</h2>
-        <p>Big Sky Software creates <a href="#projects">open source tools</a> that make building software easier and
-            more fun.</p>
+        <p>Big Sky Software creates <a href="#projects">open source tools</a> that make building software easier,
+            more predictable & more fun.</p>
 
-        <p><a href="mailto:info@bigsky.software">Contact us</a> for consulting engagements or if you want to discuss
-            how these technologies can help your company deliver software more quickly, reliably & inexpensively.</p>
+        <p><a href="mailto:info@bigsky.software">Contact us</a> for consulting services or if you'd like to discuss
+            how our software can help your company deliver software more quickly, reliably & inexpensively.</p>
 
-        <p>You can also <a href="https://github.com/sponsors/bigskysoftware?o=esb">support our work</a> via Github
+        <p>You can <a href="https://github.com/sponsors/bigskysoftware?o=esb">support our work</a> via Github
             Sponsors.
         </p>
     </section>
@@ -53,19 +80,19 @@
     <section id="projects">
         <h2>Our Software</h2>
 
-        <div class="grid" style="padding: 40px; padding-top: 0px">
-            <div style="display: flex; justify-content: center; align-items: center;">
+        <div class="grid grid-projects">
+            <div>
                 <a href="http://hyperscript.org"><img src="img/hyperscript.png" alt="hyperscript.org"></a>
             </div>
-            <div style="display: flex; justify-content: center; align-items: center;">
-                <a href="https://htmx.org"><img src="img/htmx_logo.1.png" alt="htmx.org"></a>
+            <div>
+                <a href="https://htmx.org"><img src="img/htmx.png" alt="htmx.org"></a>
             </div>
         </div>
-        <div class="grid" style="padding: 40px">
-            <div style="display: flex; justify-content: center; align-items: center;">
-                <a href="http://intercoolerjs.org"><img src="img/intercoolerjs.png" alt="intercoolerjs.org"></a>
+        <div class="grid grid-projects">
+            <div>
+                <a href="http://intercoolerjs.org"><img src="img/intercooler.png" alt="intercoolerjs.org"></a>
             </div>
-            <div style="display: flex; justify-content: center; align-items: center;">
+            <div>
                 <a href="http://jschema.org"><img src="img/jschema.png" alt="jschema.org"></a>
             </div>
         </div>
@@ -73,7 +100,7 @@
 
     <section id="essays">
         <h2>Essays</h2>
-        <p>We occasionally write essays on software development.</p>
+        <p>We write occasional essays on software development.</p>
         <p>Here are some of them:</p>
         <ul>
             <li><a href="https://htmx.org/essays/locality-of-behaviour">Locality of Behavior (LoB)</a></li>
