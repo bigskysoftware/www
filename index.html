@@ -3,134 +3,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>/// big sky software</title>
-    <link rel="stylesheet" type="text/css" href="css/pico.css">
-    <style>
-        /* slash colors */
-        .c1 {color: #f6e493}
-        .c2 {color: #f2af3e}
-        .c3 {color: #ee9042}
-
-        .hero {
-            background-image: url('img/topo.svg');
-            background-color: rgb(0, 6, 24);
-            padding: 40px;
-            border-top: 2px solid whitesmoke;
-            border-bottom: 2px solid whitesmoke
-        }
-
-        @media (prefers-color-scheme: dark) {
-            .hero {
-                background-image: url('img/topo-dark.svg');
-                border-top: 2px solid #323131;
-                border-bottom: 2px solid #323131
-            }
-        }
-
-        @media (max-width: 430px) {
-            .company-name {
-                display: block;
-            }
-        }
-
-        .hero h1 {
-            color: white;
-            font-size: 4em;
-        }
-
-        .hero a {
-            color: white;
-        }
-        .hero a:hover {
-            color: lightgray;
-        }
-        .grid-projects div {
-            padding-bottom: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    </style>
+    <style></style>
 </head>
-<body style="padding-top: 8px">
-<div class="hero">
-    <header class="container">
-        <hgroup>
-            <h1><span class="c1">/</span><span class="c2">/</span><span class="c3">/</span>
-                <span class="company-name">Big Sky Software</span></h1>
-            <h2>We find hot, new industry trends and then do the opposite of that</h2>
-        </hgroup>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#essays">Essays</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="/cv">CV</a></li>
-            </ul>
-        </nav>
-    </header>
-</div>
-<main class="container">
-    <section id="about">
-        <h2>About Us</h2>
-        <p>At Big Sky Software we create <a href="#projects">open source tools</a> that make building software fast,
-            flexible & fun.</p>
+<body style='padding-top: 8px; font-family:sans-serif'>
+<header style="text-align: center; border-bottom: 1px solid whitesmoke;padding: 32px">
+    <img style="max-width: 100%" src="img/bss.png">
+</header>
+<main style="text-align: center">
 
-        <p><a href="mailto:info@bigsky.software">Contact us</a> to discuss how our tools can help you
-            deliver software more predictably, reliably & inexpensively.</p>
-
-        <p>You can <a href="https://github.com/sponsors/bigskysoftware?o=esb">support our work</a> via Github
-            Sponsors.
-        </p>
-
-        <p>Thanks!</p>
-    </section>
-
-    <section id="projects">
-        <h2>Our Software</h2>
-
-        <div class="grid grid-projects">
-            <div>
-                <a href="http://hyperscript.org"><img src="img/hyperscript.png" alt="hyperscript.org"></a>
-            </div>
-            <div>
-                <a href="https://htmx.org"><img src="img/htmx.png" alt="htmx.org"></a>
-            </div>
-        </div>
-        <div class="grid grid-projects">
-            <div>
-                <a href="http://intercoolerjs.org"><img src="img/intercooler.png" alt="intercoolerjs.org"></a>
-            </div>
-            <div>
-                <a href="http://jschema.org"><img src="img/jschema.png" alt="jschema.org"></a>
-            </div>
-        </div>
-    </section>
-
-    <section id="essays">
-        <h2>Essays</h2>
-        <p>We write occasional essays on software development.</p>
-        <p>Here are some of them:</p>
-        <ul>
-            <li><a href="https://htmx.org/essays/hypermedia-driven-applications/">Hypermedia-Driven Applications (HDAs)</a></li>
-            <li><a href="https://htmx.org/essays/locality-of-behaviour">Locality of Behavior (LoB)</a></li>
-            <li><a href="https://htmx.org/essays/complexity-budget">Complexity Budgets</a></li>
-            <li><a href="https://htmx.org/essays/hateoas">HATEOAS</a></li>
-            <li><a href="https://htmx.org/essays/hypermedia-apis-vs-data-apis">Hypermedia APIs vs. Data APIs</a></li>
-            <li><a href="https://htmx.org/essays/splitting-your-apis">Splitting Your Data &amp; Application APIs: Going Further</a></li>
-            <li><a href="https://intercoolerjs.org/2016/02/17/api-churn-vs-security.html">The API Churn/Security Trade-off</a></li>
-            <li><a href="https://intercoolerjs.org/2016/05/08/hatoeas-is-for-humans.html">HATEOAS Is For Humans</a></li>
-            <li><a href="https://intercoolerjs.org/2016/01/18/rescuing-rest.html">Rescuing REST From the API Winter</a></li>
-        </ul>    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <ul>
-            <li><a href="mailto:info@bigsky.software">info@bigsky.software</a></li>
-            <li><a href="https://twitter.com/htmx_org">https://twitter.com/htmx_org</a></li>
-        </ul>
-    </section>
+    <ul style="list-style: none; padding: 0">
+        <li>
+            <a href="https://htmx.org"><img style="max-width: min(55%, 360px)" src="img/htmx.png"></a>
+        </li>
+        <li style="padding-top: 42px">
+            <a href="https://hyperscript.org"><img style="max-width: min(55%, 360px)" src="img/hyperscript.png"></a>
+        </li>
+        <li style="padding-top: 42px">
+            <a href="https://grugbrain.dev"><img style="border-radius: 50px; max-width: min(25%, 200px)" src="img/grug.png"></a>
+        </li>
+        <li style="padding-top: 42px">
+            <a href="https://hypermedia.systems"><img style="border-radius: 50px; max-width: min(25%, 200px)" src="img/hs.png"></a>
+        </li>
+        <li style="padding-top: 42px">
+            <a href="https://intercoolerjs.org"><img style="max-width: min(55%, 360px)" src="img/intercooler.png"></a>
+        </li>
+        <li style="padding-top: 42px">
+            <a href="https://jschema.org"><img style="max-width: min(55%, 360px)" src="img/jschema.png"></a>
+        </li>
+    </ul>
 </main>
+<footer style="text-align: center; margin-top: 32px; border-top: 1px solid whitesmoke;padding: 32px">
+    <a href="https://htmx.org/essays">essays</a> &circleddash; <a href="mailto:info@bigsky.software">contact</a> &circleddash; <a href="https://github.com/bigskysoftware">github</a> &circleddash; <a href="https://twitter.com/htmx_org">twitter</a>
+</footer>
 </body>
 </html>
 
